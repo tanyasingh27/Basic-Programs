@@ -4,5 +4,5 @@ console.log(factorial(4)); // 24
 console.log(factorial(7)); // 5040
 
 function factorial(num){
-    return (num===1) ? 1 : num * factorial(--num);    
+    return (num===0) ? 1 : num * factorial(--num);    
 }
